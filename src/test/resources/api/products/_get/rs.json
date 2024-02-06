@@ -1,0 +1,13 @@
+{
+  "id": "type:Integer",
+  "title": "${product.title}",
+  "description": "type:String",
+  "price": "type:Integer",
+  "discountPercentage": "predicate:discountPercentagePredicate",
+  "rating": "type:Double",
+  "stock": "type:Integer",
+  "brand": "type:String",
+  "category": "type:String",
+  "thumbnail": "skip",
+  "images": "skip"
+}
