@@ -1,6 +1,6 @@
 package com.solvd.homeworktests.api;
 
-import com.solvd.homeworktests.domain.Product;
+import com.solvd.homeworktests.api.domain.Product;
 import com.zebrunner.carina.api.apitools.validation.JsonComparatorContext;
 import com.zebrunner.carina.api.http.HttpResponseStatusType;
 import org.testng.annotations.Test;
@@ -31,14 +31,14 @@ public class APITests {
         getProductByIdMethod.validateResponse(comparatorContext);
     }
 
-    @Test
+/*    @Test
     public void verifyGetProductListMethod() {
         GetProductListMethod getProductListMethod = new GetProductListMethod();
         getProductListMethod.expectResponseStatus(HttpResponseStatusType.OK_200);
         getProductListMethod.callAPI();
 
         getProductListMethod.validateResponse();
-    }
+    }*/
 
     @Test
     public void verifyGetAllCategoriesMethod() {

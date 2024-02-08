@@ -9,6 +9,9 @@ lib/
 ### Logs
 logs/
 
+### Reports
+reports/
+
 ### IntelliJ IDEA
 out/
 .idea/
