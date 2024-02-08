@@ -1,4 +1,4 @@
-package com.solvd.homeworktests.domain;
+package com.solvd.homeworktests.api.domain;
 
 public class Product {
     private int id;
