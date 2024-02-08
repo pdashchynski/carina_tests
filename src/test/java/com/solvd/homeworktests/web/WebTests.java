@@ -19,8 +19,7 @@ public class WebTests implements IAbstractTest {
     }
 
     private HomePage getHomePage() {
-        WebDriver driver = new ChromeDriver();
-        HomePage homePage = new HomePage(driver);
+        HomePage homePage = new HomePage(getDriver());
         homePage.open();
         Assert.assertTrue(homePage.isPageOpened());
         return homePage;

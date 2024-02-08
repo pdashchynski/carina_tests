@@ -38,11 +38,6 @@ public class HomePage extends AbstractPage {
         return this;
     }
 
-    public HomePage topSellersClick() {
-        topSellers.click();
-        return this;
-    }
-
     public ExtendedWebElement getTopSellers() {
         return topSellers;
     }
