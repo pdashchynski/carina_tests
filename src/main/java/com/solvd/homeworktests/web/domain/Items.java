@@ -1,12 +1,18 @@
 package com.solvd.homeworktests.web.domain;
 
-public class Item {
+import com.zebrunner.carina.utils.R;
+
+public enum Items {
+
+    FIRST(1, R.TESTDATA.get("item1.title"), Double.parseDouble(R.TESTDATA.get("item1.price"))),
+    SECOND(1, R.TESTDATA.get("item2.title"), Double.parseDouble(R.TESTDATA.get("item2.price"))),
+    THIRD(1, R.TESTDATA.get("item3.title"), Double.parseDouble(R.TESTDATA.get("item3.price")));
 
     private final int index;
     private final String title;
     private final double price;
 
-    public Item(int index, String title, double price) {
+    Items(int index, String title, double price) {
         this.index = index;
         this.title = title;
         this.price = price;
